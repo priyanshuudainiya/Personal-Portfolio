@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+/* Enable dark mode via `.dark` class on <html> */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Define theme tokens */
+@theme {
+  --color-background: #0f172a;
+  --color-text: #f1f5f9;
+  --color-primary: #6366f1;
+  --color-secondary: #f43f5e;
+  --color-accent: #22d3ee;
+}
+
+/* Global styles */
+body {
+  font-family: "Inter", sans-serif;
+  @apply bg-white text-gray-900 dark:bg-background dark:text-text transition-colors duration-300;
+}
