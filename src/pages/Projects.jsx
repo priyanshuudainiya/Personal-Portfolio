@@ -6,17 +6,20 @@ export default function Projects() {
   const projects = [
     {
       title: "Portfolio Website",
-      description: "A modern portfolio built with React & Tailwind CSS.",
-      image: "/portfolio.jpg",
+      description:
+        "A sleek, modern portfolio website built with React and Tailwind CSS, offering a smooth, responsive user experience. Designed to showcase projects and skills with clean, intuitive navigation. Fully optimized for performance, accessibility, and mobile devices.",
+      image: "/portfolio.png",
     },
     {
-      title: "E-Commerce Store",
-      description: "Fully functional store with cart & checkout.",
+      title: "EzLearn - A Learning Management System",
+      description:
+        "EzLearn is a full-featured Learning Management System built on the MERN Stack. It enables seamless course creation, student enrollment, and progress tracking through an intuitive, responsive interface. Designed for modern education, it offers real-time interaction, secure authentication, and a user-friendly learning experience.",
       image: "/ecommerce.jpg",
     },
     {
-      title: "Blog Platform",
-      description: "A sleek blog platform with markdown support.",
+      title: "Tomato - A Food Ordering Platform",
+      description:
+        "Tomato is a straightforward food ordering app built with the MERN stack. Users can explore menus, add items to their cart, and place orders quickly. Its clean, responsive design ensures a smooth and intuitive experience.",
       image: "/blog.jpg",
     },
   ];
