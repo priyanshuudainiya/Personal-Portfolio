@@ -19,7 +19,7 @@ It showcases my skills, projects, and contact information in a modern and respon
 
 ## Live Demo 🟢
 
-- Check out the live website here: Personal Portfolio Live
+- Check out the live website here: https://udainiya-portfolio.netlify.app/
 
 ---
 
